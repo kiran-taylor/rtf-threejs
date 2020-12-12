@@ -1,0 +1,6 @@
+.app {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  /* border: 5px solid red; */
+}
