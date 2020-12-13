@@ -8,7 +8,21 @@ const App = () => {
   return (
     <>
       <div className="mainapp">
-        <div className="mainapp__left">{/* <p>ANIMATION</p> */}</div>
+        <div className="mainapp__left">
+          <span>
+            rootObject - the object whose animations shall be played by this
+            mixer.
+          </span>
+          <p>ANIMATE</p>
+          {/* <div className="mainapp__left__column">
+            <p>
+              I may not be the biggest fan of hip hop music, but what I am a fan
+              of is the amazing artwork that hip hop has to offer. Here is my
+              collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer. Here
+            </p>
+          </div> */}
+        </div>
         <div className="mainapp__right">
           <Taunt />
         </div>
@@ -17,10 +31,14 @@ const App = () => {
         <div className="mainapp1__left">
           <Flair />
         </div>
-        <div className="mainapp1__right">{/* <p>ANIMATION</p> */}</div>
+        <div className="mainapp1__right">
+          <p>CODE</p>
+        </div>
       </div>
       <div className="mainapp2">
-        <div className="mainapp2__left">{/* <p>ANIMATION</p> */}</div>
+        <div className="mainapp2__left">
+          <p>TERMINATOR</p>
+        </div>
         <div className="mainapp2__right">
           <Scoop />
         </div>
@@ -29,7 +47,9 @@ const App = () => {
         <div className="mainapp3__left">
           <Walk />
         </div>
-        <div className="mainapp3__right">{/* <p>ANIMATION</p> */}</div>
+        <div className="mainapp3__right">
+          <p>EAT 'N SHIT</p>
+        </div>
       </div>
     </>
   );

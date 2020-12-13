@@ -53,7 +53,8 @@ const SpinBox = () => {
 const Walk = () => {
   return (
     <Canvas
-      camera={{ position: [500, 0, 0], fov: 60 }}
+      camera={{ position: [0, 200, 500], fov: 60 }}
+      // camera.lookAt(new THREE.Vector3(0, 500, ));
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));
         // scene.background = new THREE.Color("lightblue");
@@ -63,7 +64,7 @@ const Walk = () => {
       }}
     >
       <ambientLight />
-      <pointLight position={[0, 0, 200]} />
+      <pointLight position={[0, 0, 100]} />
       <Suspense fallback={<SpinBox />}>{<Model />}</Suspense>
       <OrbitControls />
     </Canvas>

@@ -1,15 +1,46 @@
+@font-face {
+  font-family: "MyWebFont";
+  src: url("Cocaine\ sans.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 .mainapp {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(360deg, #eea849 30%, #f46b45 99%);
   /* background-image: url("img.jpg"); */
   /* border: 2px solid red; */
+  position: relative;
 }
 
 .mainapp__left > p {
+  font-size: 15em;
+  font-family: MyWebFont;
   /* border: 2px solid red; */
+  /* font-weight: 9; */
+  padding: 100px 600px;
+  position: absolute;
+  z-index: 1;
+  overflow: hidden;
 
-  text-align: left;
+  /* color: red; */
+}
+
+.mainapp__left > span {
+  font-size: 1em;
+  font-family: MyWebFont;
+  /* border: 2px solid red; */
+  /* font-weight: 9; */
+  padding: 70px 500px;
+  position: absolute;
+
+  /* color: red; */
+}
+
+.mainapp__left__column {
+  /* position: relative;
+  column-count: 3;
+  column-rule: 5px double #ff00ff;
+} */
 }
 
 .mainapp__right {
@@ -21,6 +52,9 @@
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(190deg, #eea849 50%, #f46b45 99%);
+  position: relative;
+  /* border: 2px solid red; */
+  overflow: hidden;
 }
 
 .mainapp1__left {
@@ -28,8 +62,14 @@
   /* border: 2px solid red; */
 }
 
-.mainapp1__right {
-  text-align: rights;
+.mainapp1__right > p {
+  font-size: 15em;
+  position: absolute;
+  font-family: MyWebFont;
+  /* border: 2px solid red; */
+
+  z-index: 1;
+  overflow: hidden;
   /* border: 2px solid red; */
 }
 
@@ -37,10 +77,22 @@
   background-image: linear-gradient(345deg, #eea849 30%, #f46b45 99%);
   display: flex;
   flex-direction: row;
+  position: relative;
+  overflow: hidden;
+
+  /* border: 2px solid red; */
 }
 
-.mainapp2__left {
+.mainapp2__left > P {
+  font-size: 14em;
+  font-family: MyWebFont;
   /* border: 2px solid red; */
+  /* font-weight: 9; */
+  padding: 210px 380px;
+  position: absolute;
+  z-index: 1;
+  /* border: 2px solid red; */
+  overflow: hidden;
 }
 
 .mainapp2__right {
@@ -51,8 +103,10 @@
 .mainapp3 {
   display: flex;
   background-image: linear-gradient(180deg, #eea849 30%, #f46b45 99%);
-
+  position: relative;
   flex-direction: row;
+  /* border: 2px solid red; */
+  overflow: hidden;
 }
 
 .mainapp3__left {
@@ -60,6 +114,13 @@
   /* border: 2px solid red; */
 }
 
-.mainapp3__right {
+.mainapp3__right > P {
   /* border: 2px solid red; */
+  font-size: 12em;
+  font-family: MyWebFont;
+  /* border: 2px solid red; */
+  /* font-weight: 9; */
+  padding: 15px 10px;
+  position: absolute;
+  overflow: hidden;
 }

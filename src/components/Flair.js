@@ -53,7 +53,7 @@ const SpinBox = () => {
 const Flair = () => {
   return (
     <Canvas
-      camera={{ position: [500, 0, 0], fov: 60 }}
+      camera={{ position: [0, 450, 450], fov: 60 }}
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));
         // scene.background = new THREE.Color("lightblue");
