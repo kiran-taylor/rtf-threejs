@@ -3,7 +3,7 @@ import React, { Suspense, useRef } from "react";
 import { Canvas, useFrame, useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 // import "./App.css";
-import duck from "./Scoop.glb";
+import duck from "./Kneeling.glb";
 
 import { OrbitControls } from "drei";
 
