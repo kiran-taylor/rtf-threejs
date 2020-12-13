@@ -56,7 +56,7 @@ const Flair = () => {
       camera={{ position: [500, 0, 0], fov: 60 }}
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));
-        scene.background = new THREE.Color("lightblue");
+        // scene.background = new THREE.Color("lightblue");
 
         gl.shadowMap.enabled = true;
         gl.shadowMap.type = THREE.PCFSoftShadowMap;
