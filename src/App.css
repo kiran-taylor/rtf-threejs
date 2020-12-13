@@ -10,6 +10,13 @@
   /* background-image: url("img.jpg"); */
   /* border: 2px solid red; */
   position: relative;
+  overflow: hidden;
+  /* border: 5px solid red; */
+}
+
+.mainapp__left {
+  position: absolute;
+  /* border: 5px solid red; */
 }
 
 .mainapp__left > p {
@@ -17,10 +24,11 @@
   font-family: MyWebFont;
   /* border: 2px solid red; */
   /* font-weight: 9; */
-  padding: 100px 600px;
+  padding: 140px 390px;
   position: absolute;
-  z-index: 1;
-  overflow: hidden;
+  z-index: 0;
+  /* overflow: hidden; */
+  /* border: 2px solid red; */
 
   /* color: red; */
 }
@@ -30,22 +38,54 @@
   font-family: MyWebFont;
   /* border: 2px solid red; */
   /* font-weight: 9; */
-  padding: 70px 500px;
+  padding: 70px 300px;
   position: absolute;
 
   /* color: red; */
 }
 
-.mainapp__left__column {
-  /* position: relative;
-  column-count: 3;
-  column-rule: 5px double #ff00ff;
-} */
+.mainapp__right {
+  /* margin-top: 0.3em; */
+  margin-left: 25em;
+  position: absolute;
+  /* border: 5px solid red; */
 }
 
-.mainapp__right {
-  /* margin-top: 10em; */
-  /* border: 2px solid red; */
+.mainapp__left__verticalLine {
+  border-left: 6px solid black;
+  height: 35em;
+  position: absolute;
+  left: 5%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.mainapp__left__verticalLine1 {
+  border-left: 6px solid black;
+  height: 29em;
+  top: 50%;
+  position: absolute;
+  left: 6%;
+  margin-left: -3px;
+  top: 10%;
+}
+
+.mainapp__left__verticalLine2 {
+  border-left: 6px solid black;
+  height: 25em;
+  position: absolute;
+  left: 7%;
+  margin-left: -3px;
+  top: 15%;
+}
+
+.mainapp__left__verticalLine3 {
+  border-left: 6px solid black;
+  height: 20em;
+  position: absolute;
+  left: 8%;
+  margin-left: -3px;
+  top: 21%;
 }
 
 .mainapp1 {
@@ -59,7 +99,24 @@
 
 .mainapp1__left {
   /* margin-top: 10em; */
+  position: relative;
+  border: 2px solid red;
+}
+
+.mainapp__left__story {
+  font-size: 1em;
+  position: absolute;
+  font-family: MyWebFont;
   /* border: 2px solid red; */
+  padding: 29em 20em 10em;
+  z-index: 1;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+.mainapp1__right {
+  position: relative;
+  border: 2px solid red;
 }
 
 .mainapp1__right > p {
@@ -67,7 +124,7 @@
   position: absolute;
   font-family: MyWebFont;
   /* border: 2px solid red; */
-
+  padding: 100px;
   z-index: 1;
   overflow: hidden;
   /* border: 2px solid red; */
@@ -120,7 +177,7 @@
   font-family: MyWebFont;
   /* border: 2px solid red; */
   /* font-weight: 9; */
-  padding: 15px 10px;
+  padding: 400px 0px;
   position: absolute;
   overflow: hidden;
 }

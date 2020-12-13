@@ -4,6 +4,7 @@ import { Canvas, useFrame, useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 // import "./App.css";
 import duck from "./Dance.glb";
+// import Taunt from "./Taunt.glb";
 
 import { OrbitControls } from "drei";
 
@@ -65,7 +66,12 @@ const Walk = () => {
     >
       <ambientLight />
       <pointLight position={[0, 0, 100]} />
-      <Suspense fallback={<SpinBox />}>{<Model />}</Suspense>
+      <Suspense fallback={<SpinBox />}>
+        {<Model position={[0, 200, 200]} />}
+      </Suspense>
+
+      {/* <Suspense fallback={<SpinBox />}>{<NewModel />}</Suspense> */}
+
       <OrbitControls />
     </Canvas>
   );

@@ -33,7 +33,6 @@ const Model = (props) => {
     if (child.isMesh) {
       child.castShadow = true;
       child.receiveShadow = true;
-      child.material.side = THREE.FrontSide;
     }
   });
 
@@ -53,7 +52,7 @@ const SpinBox = () => {
 const Flair = () => {
   return (
     <Canvas
-      camera={{ position: [0, 450, 450], fov: 60 }}
+      camera={{ position: [0, 190, 190], fov: 60 }}
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));
         // scene.background = new THREE.Color("lightblue");
