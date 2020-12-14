@@ -3,7 +3,8 @@ import React, { Suspense, useRef } from "react";
 import { Canvas, useFrame, useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 // import "./App.css";
-import duck from "./sitting.glb";
+// import duck from "./ship.glb";
+import duck from "./ship.glb";
 
 import { OrbitControls } from "drei";
 
@@ -53,7 +54,7 @@ const SpinBox = () => {
 const Taunt = () => {
   return (
     <Canvas
-      camera={{ position: [10, 210, 210], fov: 60 }}
+      camera={{ position: [10, 260, 260], fov: 60 }}
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));
         // scene.background = new THREE.Color("lightblue");

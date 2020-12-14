@@ -54,7 +54,7 @@ const SpinBox = () => {
 const Walk = () => {
   return (
     <Canvas
-      camera={{ position: [0, 200, 500], fov: 60 }}
+      camera={{ position: [0, 300, 500], fov: 60 }}
       // camera.lookAt(new THREE.Vector3(0, 500, ));
       onCreated={({ gl, scene }) => {
         // camera.lookAt(new THREE.Vector3(500, 0, 0));

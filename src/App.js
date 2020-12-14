@@ -47,19 +47,67 @@ const App = () => {
           <Taunt />
         </div>
       </div>
-      <div className="mainapp1">
-        <div className="mainapp1__left">
+      <div className="flairapp">
+        <div className="flairapp__left">
           <Flair />
         </div>
-        <div className="mainapp1__right">
-          <p>CODE</p>
+        <div className="flairapp__right">
+          <p>REACT-THREE-FIBER</p>
+          <div className="flairapp__right__story">
+            <p>
+              I may not be the biggest fan of hip hop music, but what I am a fan
+              of is the amazing artwork that hip hop has to offer. Here is my
+              collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here I may not be the biggest fan of
+              hip hop music, but what I am a fan of is the amazing artwork that
+              hip hop has to offer. Here is my collec I may not be the biggest
+              to offer. Here is my collecthat hip hop has to offer twork that
+              hip hop has to offer I may not be the biggest fan of hip hop
+              music, but what I am a fan of is the amazing artwork that hip hop
+              has to offer. Here is my collec I may not be the biggest to offer.
+              HereI may not be the biggest fan of hip hop music, but what I am a
+              fan of is the amazing artwork that hip hop has to offer. Here is
+              my collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here
+            </p>
+          </div>
         </div>
       </div>
-      <div className="mainapp2">
-        <div className="mainapp2__left">
+      <div className="scoopapp">
+        <div className="scoopapp__left">
           <p>TERMINATOR</p>
+          <div className="flairapp__right__story">
+            <p>
+              I may not be the biggest fan of hip hop music, but what I am a fan
+              of is the amazing artwork that hip hop has to offer. Here is my
+              collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here I may not be the biggest fan of
+              hip hop music, but what I am a fan of is the amazing artwork that
+              hip hop has to offer. Here is my collec I may not be the biggest
+              to offer. Here is my collecthat hip hop has to offer twork that
+              hip hop has to offer I may not be the biggest fan of hip hop
+              music, but what I am a fan of is the amazing artwork that hip hop
+              has to offer. Here is my collec I may not be the biggest to offer.
+              HereI may not be the biggest fan of hip hop music, but what I am a
+              fan of is the amazing artwork that hip hop has to offer. Here is
+              my collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here
+            </p>
+          </div>
         </div>
-        <div className="mainapp2__right">
+        <div className="scoopapp__right">
           <Scoop />
         </div>
       </div>
@@ -68,6 +116,30 @@ const App = () => {
           <Walk />
         </div>
         <div className="mainapp3__right">
+          <div className="flairapp__right__story">
+            <p>
+              I may notX be the biggest fan of hip hop music, but what I am a fan
+              of is the amazing artwork that hip hop has to offer. Here is my
+              collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here I may not be the biggest fan of
+              hip hop music, but what I am a fan of is the amazing artwork that
+              hip hop has to offer. Here is my collec I may not be the biggest
+              to offer. Here is my collecthat hip hop has to offer twork that
+              hip hop has to offer I may not be the biggest fan of hip hop
+              music, but what I am a fan of is the amazing artwork that hip hop
+              has to offer. Here is my collec I may not be the biggest to offer.
+              HereI may not be the biggest fan of hip hop music, but what I am a
+              fan of is the amazing artwork that hip hop has to offer. Here is
+              my collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here
+            </p>
+          </div>sassC
           <p>EAT 'N SHIT</p>
         </div>
       </div>

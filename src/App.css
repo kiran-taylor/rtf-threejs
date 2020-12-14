@@ -44,6 +44,17 @@
   /* color: red; */
 }
 
+.mainapp__left__story {
+  font-size: 1em;
+  position: absolute;
+  font-family: MyWebFont;
+  /* border: 2px solid red; */
+  padding: 29em 20em 10em;
+  z-index: 1;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
 .mainapp__right {
   /* margin-top: 0.3em; */
   margin-left: 25em;
@@ -51,7 +62,7 @@
   /* border: 5px solid red; */
 }
 
-.mainapp__left__verticalLine {
+.scoopapp__right__verticalLine {
   border-left: 6px solid black;
   height: 35em;
   position: absolute;
@@ -88,7 +99,7 @@
   top: 21%;
 }
 
-.mainapp1 {
+.flairapp {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(190deg, #eea849 50%, #f46b45 99%);
@@ -97,40 +108,48 @@
   overflow: hidden;
 }
 
-.mainapp1__left {
+.flairapp__left {
   /* margin-top: 10em; */
-  position: relative;
-  border: 2px solid red;
+  position: absolute;
+  /* border: 10px solid red; */
+  top: 40%;
+  /* widows: 50%; */
 }
 
-.mainapp__left__story {
+.flairapp__right {
+  position: absolute;
+  /* border: 2px solid red; */
+}
+
+.flairapp__right > p {
+  margin: 0;
+  font-size: 15em;
+  position: absolute;
+  font-family: MyWebFont;
+  /* top: 40%; */
+  /* bottom: 30%; */
+  /* z-index: 1; */
+  left: 8%;
+  /* top: -20%; */
+  /* border: 2px solid red; */
+  /* padding-top: 100px; */
+  overflow: hidden;
+  /* z-index: 0; */
+  /* border: 2px solid red; */
+}
+
+.flairapp__right__story {
   font-size: 1em;
   position: absolute;
   font-family: MyWebFont;
   /* border: 2px solid red; */
-  padding: 29em 20em 10em;
-  z-index: 1;
+  /* padding: 29em 20em 10em; */
+  z-index: 0;
   overflow: hidden;
   /* border: 2px solid red; */
 }
 
-.mainapp1__right {
-  position: relative;
-  border: 2px solid red;
-}
-
-.mainapp1__right > p {
-  font-size: 15em;
-  position: absolute;
-  font-family: MyWebFont;
-  /* border: 2px solid red; */
-  padding: 100px;
-  z-index: 1;
-  overflow: hidden;
-  /* border: 2px solid red; */
-}
-
-.mainapp2 {
+.scoopapp {
   background-image: linear-gradient(345deg, #eea849 30%, #f46b45 99%);
   display: flex;
   flex-direction: row;
@@ -140,7 +159,7 @@
   /* border: 2px solid red; */
 }
 
-.mainapp2__left > P {
+.scoopapp__left > p {
   font-size: 14em;
   font-family: MyWebFont;
   /* border: 2px solid red; */
@@ -152,7 +171,18 @@
   overflow: hidden;
 }
 
-.mainapp2__right {
+.scoopapp__left__story > p {
+  font-size: 1em;
+  position: absolute;
+  font-family: MyWebFont;
+  /* border: 2px solid red; */
+  /* padding: 29em 20em 10em; */
+  z-index: 0;
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+
+.scoopapp__right {
   /* margin-top: 10em; */
   /* border: 2px solid red; */
 }
