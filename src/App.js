@@ -1,33 +1,24 @@
 import "./App.css";
 import React from "react";
-import Taunt from "./components/Taunt";
-import Walk from "./components/Walk";
-import Scoop from "./components/Scoop";
-import Flair from "./components/Flair";
-import duck from "./ship.glb";
-import duckk from "./spin.glb";
+import Character from "./components/Character";
+import skin1 from "./skin/skin1.glb";
+import skin2 from "./skin/skin2.glb";
+import skin3 from "./skin/skin3.glb";
+import skin4 from "./skin/skin4.glb";
 
 const App = () => {
   return (
     <>
-      <div className="mainapp">
-        <div className="mainapp__left">
+      <div className="mainapp1">
+        <div className="mainapp1__left">
           <span>
             rootObject - the object whose animations shall be played by this
             mixer.
           </span>
           <br />
-          <span>=========@@@dalmsCKLMSCKLM@@]]]]]]\\</span>
+          <span>=========@@@@@@@@@@@MMMMMMMM</span>
           <p>A|N|I|M|A|T|E</p>
-          {/* <div className="mainapp__left__column">
-            <p>
-              I may not be the biggest fan of hip hop music, but what I am a fan
-              of is the amazing artwork that hip hop has to offer. Here is my
-              collec I may not be the biggest to offer. Here is my collecthat
-              hip hop has to offer twork that hip hop has to offer. Here
-            </p>
-          </div> */}
-          <div className="mainapp__left__story">
+          <div className="mainapp1__left__story">
             <p>
               I may not be the biggest fan of hip hop music, but what I am a fan
               of is the amazing artwork that hip hop has to offer. Here is my
@@ -37,23 +28,23 @@ const App = () => {
               amazing artwork that hip hop has to offer. Here is my collec I may
               not be the biggest to offerHere
             </p>
-            <div className="mainapp__left__verticalLine"></div>
-            <div className="mainapp__left__verticalLine1"></div>
-            <div className="mainapp__left__verticalLine2"></div>
-            <div className="mainapp__left__verticalLine3"></div>
+            <div className="mainapp1__left__verticalLine"></div>
+            <div className="mainapp1__left__verticalLine1"></div>
+            <div className="mainapp1__left__verticalLine2"></div>
+            <div className="mainapp1__left__verticalLine3"></div>
           </div>
         </div>
-        <div className="mainapp__right">
-          <Taunt model={duck} />
+        <div className="mainapp1__right">
+          <Character model={skin2} />
         </div>
       </div>
-      <div className="flairapp">
-        <div className="flairapp__left">
-          <Flair />
+      <div className="mainapp2">
+        <div className="mainapp2__left">
+          <Character model={skin3} />
         </div>
-        <div className="flairapp__right">
+        <div className="mainapp2__right">
           <p>REACT-THREE-FIBER</p>
-          <div className="flairapp__right__story">
+          <div className="mainapp2__right__story">
             <p>
               I may not be the biggest fan of hip hop music, but what I am a fan
               of is the amazing artwork that hip hop has to offer. Here is my
@@ -77,55 +68,56 @@ const App = () => {
               not be the biggest to offer. Here
             </p>
           </div>
-        </div>
-      </div>
-      <div className="scoopapp">
-        <div className="scoopapp__left">
-          <div className="scoopapp__left__p">
-            <p>MIXAMO</p>
-          </div>
-          <div className="scoopapp__left__para">
-            <p>
-              I may not be the biggest fan of hip hop music, but what I am a fan
-              of is the amazing artwork that hip hop has to offer. Here is my
-              collec I may not be the biggest to offer. Here is my collecthat
-              hip hop has to offer twork that hip hop has to offer I may not be
-              the biggest fan of hip hop music, but what I am a fan of is the
-              amazing artwork that hip hop has to offer. Here is my collec I may
-              not be the biggest to offer. Here I may not be the biggest fan of
-              hip hop music, but what I am a fan of is the amazing artwork that
-              hip hop has to offer. Here is my collec I may not be the biggest
-              to offer. Here is my collecthat hip hop has to offer twork that
-              hip hop has to offer I may not be the biggest fan of hip hop
-              music, but what I am a fan of is the amazing artwork that hip hop
-              has to offer. Here is my collec I may not be the biggest to offer.
-              HereI may not be the biggest fan of hip hop music, but what I am a
-              fan of is the amazing artwork that hip hop has to offer. Here is
-              my collec I may not be the biggest to offer. Here is my collecthat
-              hip hop has to offer twork that hip hop has to offer I may not be
-              the biggest fan of hip hop music, but what I am a fan of is the
-              amazing artwork that hip hop has to offer. Here is my collec I may
-              not be the biggest to offer. Here
-            </p>
-          </div>
-        </div>
-        <div className="scoopapp__right">
-          <Scoop />
-          <div className="scoopapp__right__vL"></div>
-          <div className="scoopapp__right__vL1"></div>
-          <div className="scoopapp__right__vL2"></div>
-          <div className="scoopapp__right__vL3"></div>
         </div>
       </div>
       <div className="mainapp3">
         <div className="mainapp3__left">
-          <Walk />
+          <div className="mainapp3__left__p">
+            <p>MIXAMO</p>
+          </div>
+          <div className="mainapp3__left__para">
+            <p>
+              I may not be the biggest fan of hip hop music, but what I am a fan
+              of is the amazing artwork that hip hop has to offer. Here is my
+              collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here I may not be the biggest fan of
+              hip hop music, but what I am a fan of is the amazing artwork that
+              hip hop has to offer. Here is my collec I may not be the biggest
+              to offer. Here is my collecthat hip hop has to offer twork that
+              hip hop has to offer I may not be the biggest fan of hip hop
+              music, but what I am a fan of is the amazing artwork that hip hop
+              has to offer. Here is my collec I may not be the biggest to offer.
+              HereI may not be the biggest fan of hip hop music, but what I am a
+              fan of is the amazing artwork that hip hop has to offer. Here is
+              my collec I may not be the biggest to offer. Here is my collecthat
+              hip hop has to offer twork that hip hop has to offer I may not be
+              the biggest fan of hip hop music, but what I am a fan of is the
+              amazing artwork that hip hop has to offer. Here is my collec I may
+              not be the biggest to offer. Here
+            </p>
+          </div>
         </div>
         <div className="mainapp3__right">
+          <Character model={skin4} />
+
+          <div className="mainapp3__right__vL"></div>
+          <div className="mainapp3__right__vL1"></div>
+          <div className="mainapp3__right__vL2"></div>
+          <div className="mainapp3__right__vL3"></div>
+        </div>
+      </div>
+      <div className="mainapp4">
+        <div className="mainapp4__left">
+          <Character model={skin1} />
+        </div>
+        <div className="mainapp4__right">
           <p>HTML||5 CSS|3 JAVASCRIPT</p>
           <span>Designed By KIRAN BALAMALYNR</span>
 
-          <div className="flairapp__right__story">
+          <div className="mainapp4__right__story">
             <p>
               I may notX be the biggest fan of hip hop music, but what I am a
               fan of is the amazing artwork that hip hop has to offer. Here is

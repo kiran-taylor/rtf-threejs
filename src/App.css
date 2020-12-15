@@ -3,7 +3,9 @@
   src: url("Cocaine\ sans.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
-.mainapp {
+/* MAIN APP 1*/
+
+.mainapp1 {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(360deg, #eea849 30%, #f46b45 99%);
@@ -11,11 +13,11 @@
   overflow: hidden;
 }
 
-.mainapp__left {
+.mainapp1__left {
   position: absolute;
 }
 
-.mainapp__left > p {
+.mainapp1__left > p {
   font-size: 15em;
   font-family: MyWebFont;
   padding: 140px 390px;
@@ -23,14 +25,14 @@
   z-index: 0;
 }
 
-.mainapp__left > span {
+.mainapp1__left > span {
   font-size: 1em;
   font-family: MyWebFont;
   padding: 70px 300px;
   position: absolute;
 }
 
-.mainapp__left__story {
+.mainapp1__left__story {
   font-size: 1em;
   position: absolute;
   font-family: MyWebFont;
@@ -39,12 +41,12 @@
   overflow: hidden;
 }
 
-.mainapp__right {
+.mainapp1__right {
   margin-left: 25em;
   position: absolute;
 }
 
-.mainapp__left__verticalLine {
+.mainapp1__left__verticalLine {
   border-left: 6px solid black;
   height: 29em;
   top: 50%;
@@ -54,7 +56,7 @@
   top: 10%;
 }
 
-.mainapp__left__verticalLine1 {
+.mainapp1__left__verticalLine1 {
   border-left: 6px solid black;
   height: 25em;
   position: absolute;
@@ -63,7 +65,7 @@
   top: 15%;
 }
 
-.mainapp__left__verticalLine2 {
+.mainapp1__left__verticalLine2 {
   border-left: 6px solid black;
   height: 20em;
   position: absolute;
@@ -72,7 +74,7 @@
   top: 21%;
 }
 
-.mainapp__left__verticalLine3 {
+.mainapp1__left__verticalLine3 {
   border-left: 6px solid black;
   height: 16em;
   position: absolute;
@@ -81,7 +83,11 @@
   top: 26%;
 }
 
-.flairapp {
+/* EO MAIN APP */
+
+/* MAIN APP 2 */
+
+.mainapp2 {
   display: flex;
   flex-direction: row;
   background-image: linear-gradient(190deg, #eea849 50%, #f46b45 99%);
@@ -89,16 +95,16 @@
   overflow: hidden;
 }
 
-.flairapp__left {
+.mainapp2__left {
   position: absolute;
   top: 40%;
 }
 
-.flairapp__right {
+.mainapp2__right {
   position: absolute;
 }
 
-.flairapp__right > p {
+.mainapp2__right > p {
   margin: 0;
   font-size: 15em;
   position: absolute;
@@ -107,7 +113,7 @@
   overflow: hidden;
 }
 
-.flairapp__right__story {
+.mainapp2__right__story {
   font-size: 1em;
   position: absolute;
   font-family: MyWebFont;
@@ -115,19 +121,23 @@
   overflow: hidden;
 }
 
-.scoopapp {
+/* EO MAIN APP 2 */
+
+/* MAIN APP 3 */
+
+.mainapp3 {
   background-image: linear-gradient(345deg, #eea849 30%, #f46b45 99%);
   display: flex;
   flex-direction: row;
   position: relative;
   overflow: hidden;
 }
-.scoopapp__left {
+.mainapp3__left {
   position: absolute;
   display: flex;
   z-index: 1;
 }
-.scoopapp__left__p > p {
+.mainapp3__left__p > p {
   font-size: 15em;
   font-family: MyWebFont;
   position: absolute;
@@ -136,7 +146,7 @@
   overflow: hidden;
 }
 
-.scoopapp__left__para {
+.mainapp3__left__para {
   font-size: 1em;
   font-family: MyWebFont;
   position: absolute;
@@ -144,13 +154,13 @@
   overflow: hidden;
 }
 
-.scoopapp__right {
+.mainapp3__right {
   position: absolute;
   right: 30%;
   z-index: 0;
 }
 
-.scoopapp__right__vL {
+.mainapp3__right__vL {
   border-right: 6px solid black;
   height: 30em;
   position: absolute;
@@ -160,7 +170,7 @@
   left: 25%;
 }
 
-.scoopapp__right__vL1 {
+.mainapp3__right__vL1 {
   border-right: 6px solid black;
   height: 26em;
   position: absolute;
@@ -170,7 +180,7 @@
   left: 24%;
 }
 
-.scoopapp__right__vL2 {
+.mainapp3__right__vL2 {
   border-right: 6px solid black;
   height: 22em;
   position: absolute;
@@ -180,7 +190,7 @@
   left: 23%;
 }
 
-.scoopapp__right__vL3 {
+.mainapp3__right__vL3 {
   border-right: 6px solid black;
   height: 19em;
   position: absolute;
@@ -190,7 +200,11 @@
   left: 22%;
 }
 
-.mainapp3 {
+/* EO MAIN APP 3 */
+
+/* MAIN APP 4 */
+
+.mainapp4 {
   display: flex;
   background-image: linear-gradient(180deg, #eea849 30%, #f46b45 99%);
   position: relative;
@@ -198,24 +212,32 @@
   overflow: hidden;
 }
 
-.mainapp3__left {
+.mainapp4__left {
   position: absolute;
 }
 
-.mainapp3__right > p {
+.mainapp4__right {
+  position: absolute;
+}
+
+.mainapp4__right > p {
   font-size: 9em;
   font-family: MyWebFont;
   left: 15%;
-  padding: 400px 0px;
+  top: 3em;
   position: absolute;
-  overflow: hidden;
 }
 
-.mainapp3__right > span {
+.mainapp4__right > span {
   font-size: 4em;
   font-family: MyWebFont;
   left: 15%;
   padding: 550px 0px 0px 500px;
   position: absolute;
-  overflow: hidden;
 }
+
+.mainapp4__right__story {
+  font-size: 1em;
+  font-family: MyWebFont;
+}
+/* EO MAIN APP 4 */
