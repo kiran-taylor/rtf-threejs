@@ -4,6 +4,9 @@ import Taunt from "./components/Taunt";
 import Walk from "./components/Walk";
 import Scoop from "./components/Scoop";
 import Flair from "./components/Flair";
+import duck from "./ship.glb";
+import duckk from "./spin.glb";
+
 const App = () => {
   return (
     <>
@@ -32,19 +35,16 @@ const App = () => {
               hip hop has to offer twork that hip hop has to offer I may not be
               the biggest fan of hip hop music, but what I am a fan of is the
               amazing artwork that hip hop has to offer. Here is my collec I may
-              not be the biggest to offer. Here
+              not be the biggest to offerHere
             </p>
             <div className="mainapp__left__verticalLine"></div>
             <div className="mainapp__left__verticalLine1"></div>
             <div className="mainapp__left__verticalLine2"></div>
             <div className="mainapp__left__verticalLine3"></div>
-            <div className="mainapp__left__verticalLine4"></div>
-            <div className="mainapp__left__verticalLine5"></div>
-            <div className="mainapp__left__verticalLine6"></div>
           </div>
         </div>
         <div className="mainapp__right">
-          <Taunt />
+          <Taunt model={duck} />
         </div>
       </div>
       <div className="flairapp">
@@ -81,8 +81,10 @@ const App = () => {
       </div>
       <div className="scoopapp">
         <div className="scoopapp__left">
-          <p>TERMINATOR</p>
-          <div className="flairapp__right__story">
+          <div className="scoopapp__left__p">
+            <p>MIXAMO</p>
+          </div>
+          <div className="scoopapp__left__para">
             <p>
               I may not be the biggest fan of hip hop music, but what I am a fan
               of is the amazing artwork that hip hop has to offer. Here is my
@@ -109,6 +111,10 @@ const App = () => {
         </div>
         <div className="scoopapp__right">
           <Scoop />
+          <div className="scoopapp__right__vL"></div>
+          <div className="scoopapp__right__vL1"></div>
+          <div className="scoopapp__right__vL2"></div>
+          <div className="scoopapp__right__vL3"></div>
         </div>
       </div>
       <div className="mainapp3">
@@ -116,11 +122,14 @@ const App = () => {
           <Walk />
         </div>
         <div className="mainapp3__right">
+          <p>HTML||5 CSS|3 JAVASCRIPT</p>
+          <span>Designed By KIRAN BALAMALYNR</span>
+
           <div className="flairapp__right__story">
             <p>
-              I may notX be the biggest fan of hip hop music, but what I am a fan
-              of is the amazing artwork that hip hop has to offer. Here is my
-              collec I may not be the biggest to offer. Here is my collecthat
+              I may notX be the biggest fan of hip hop music, but what I am a
+              fan of is the amazing artwork that hip hop has to offer. Here is
+              my collec I may not be the biggest to offer. Here is my collecthat
               hip hop has to offer twork that hip hop has to offer I may not be
               the biggest fan of hip hop music, but what I am a fan of is the
               amazing artwork that hip hop has to offer. Here is my collec I may
@@ -139,8 +148,7 @@ const App = () => {
               amazing artwork that hip hop has to offer. Here is my collec I may
               not be the biggest to offer. Here
             </p>
-          </div>sassC
-          <p>EAT 'N SHIT</p>
+          </div>
         </div>
       </div>
     </>

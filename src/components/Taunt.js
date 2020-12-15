@@ -2,14 +2,12 @@ import * as THREE from "three";
 import React, { Suspense, useRef } from "react";
 import { Canvas, useFrame, useLoader } from "react-three-fiber";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
-// import "./App.css";
 // import duck from "./ship.glb";
-import duck from "./ship.glb";
 
 import { OrbitControls } from "drei";
 
 const Model = (props) => {
-  const model = useLoader(GLTFLoader, duck);
+  const model = useLoader(GLTFLoader, props.character);
 
   // Here's the animation part
   // *************************
@@ -51,7 +49,7 @@ const SpinBox = () => {
   );
 };
 
-const Taunt = () => {
+const Taunt = (props) => {
   return (
     <Canvas
       camera={{ position: [10, 260, 260], fov: 60 }}
@@ -65,7 +63,9 @@ const Taunt = () => {
     >
       <ambientLight />
       <pointLight position={[0, 0, 200]} />
-      <Suspense fallback={<SpinBox />}>{<Model />}</Suspense>
+      <Suspense fallback={<SpinBox />}>
+        {<Model scale={[1, 1, 1]} character={props.model} />}
+      </Suspense>
       <OrbitControls />
     </Canvas>
   );
