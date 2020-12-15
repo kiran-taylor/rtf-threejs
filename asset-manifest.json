@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/rtf-threejs/static/css/main.a416b002.chunk.css",
+    "main.js": "/rtf-threejs/static/js/main.b55fe9fc.chunk.js",
+    "main.js.map": "/rtf-threejs/static/js/main.b55fe9fc.chunk.js.map",
+    "runtime-main.js": "/rtf-threejs/static/js/runtime-main.4ca71a18.js",
+    "runtime-main.js.map": "/rtf-threejs/static/js/runtime-main.4ca71a18.js.map",
+    "static/js/2.d238a928.chunk.js": "/rtf-threejs/static/js/2.d238a928.chunk.js",
+    "static/js/2.d238a928.chunk.js.map": "/rtf-threejs/static/js/2.d238a928.chunk.js.map",
+    "index.html": "/rtf-threejs/index.html",
+    "static/css/main.a416b002.chunk.css.map": "/rtf-threejs/static/css/main.a416b002.chunk.css.map",
+    "static/js/2.d238a928.chunk.js.LICENSE.txt": "/rtf-threejs/static/js/2.d238a928.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rtf-threejs/static/media/Cocaine sans.7b17a1e1.ttf",
+    "static/media/skin1.c932ffea.glb": "/rtf-threejs/static/media/skin1.c932ffea.glb",
+    "static/media/skin2.b52b0b65.glb": "/rtf-threejs/static/media/skin2.b52b0b65.glb",
+    "static/media/skin3.cb35a996.glb": "/rtf-threejs/static/media/skin3.cb35a996.glb",
+    "static/media/skin4.e260c467.glb": "/rtf-threejs/static/media/skin4.e260c467.glb"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ca71a18.js",
+    "static/js/2.d238a928.chunk.js",
+    "static/css/main.a416b002.chunk.css",
+    "static/js/main.b55fe9fc.chunk.js"
+  ]
+}
